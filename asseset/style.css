@@ -1,0 +1,9 @@
+header{
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    color: fuchsia;
+    text-align: center;
+}
+  img{
+      image-orientation: unset;
+  }
