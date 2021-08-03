@@ -72,8 +72,8 @@ h2{
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
-    color: white;
+    background-color: #132f6b;
+    color: rgb(235, 27, 27); 
   }
   
   .container {
@@ -87,7 +87,7 @@ h2{
   }
   
   .title {
-    color: grey;
+    color: rgb(99, 94, 94);
   }
   
   .button {
@@ -114,6 +114,10 @@ h2{
   }
   img{
     display: block;
+  }
+  ::backdrop{
+    background-image: image("/Users/andreicho/Desktop/bootcamp/hw-2-bootcamp/asseset/images/15065.jpg");
+    image-rendering: pixelated;
   }
 
   
