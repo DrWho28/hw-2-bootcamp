@@ -10,7 +10,6 @@ header{
     box-sizing: border-;
 }
 
-/* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position:relative;
   max-width:100%;
@@ -113,4 +112,9 @@ h2{
       display: block;
     }
   }
+  img{
+    display: block;
+  }
+
+  
   
