@@ -115,34 +115,8 @@ h2{
   img{
     display: block;
   }
-  body{background-color: darkmagenta;}
   
-  #navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
-  .nav-item{
-    float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  }
-  .content {
-    padding: 16px;
-  }
-  .content {
-    padding: 16px;
-  }
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%; 
-  }
-  sticky + .content {
-    padding-top: 60px;
-  }
+  
   .row{
     display: flex;
     flex-wrap: wrap;
@@ -156,3 +130,42 @@ h2{
     margin-top: 8px;
     vertical-align:auto ;
   }
+.navbar{
+  display: flex;
+  flex-direction: row-reverse;
+  font: 1em sans-serif;
+  color: #f1f1f1; 
+  position:sticky;
+  top:0;
+ justify-content:center;
+}
+
+
+@keyframes bgcolor {
+  0% {
+      background-color: #45a3e5
+  }
+
+  30% {
+      background-color: #66bf39
+  }
+
+  60% {
+      background-color: #eb670f
+  }
+
+  90% {
+      background-color: #f35
+  }
+
+  100% {
+      background-color: #864cbf
+  }
+}
+
+body {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
