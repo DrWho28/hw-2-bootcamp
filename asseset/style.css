@@ -15,7 +15,7 @@ header{
 position:relative;
 max-width:100%;
 height: 125px;
-background-image: url("/Users/andreicho/Desktop/bootcamp/hw-2-bootcamp/asseset/images/15065.jpg");
+background-image: url("/Users/andreicho/Desktop/bootcamp/hw-2-bootcamp/asseset/images/20.jpg");
 }
 
 
@@ -147,11 +147,14 @@ html {
     justify-content: center;
     }
    
-.column{
+.MyWork{ 
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row-reverse;
-  justify-content: center;
-  
-}
 
+}
+.twitter{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
