@@ -15,21 +15,26 @@ header{
 flex-grow: inherit;
 position:sticky;
 background-image: url("/Users/andreicho/Desktop/bootcamp/hw-2-bootcamp/asseset/images/20.jpg");
-background-size:cover ;
+background-size:cover;
 }
 .navbar{
   display: flex;
   flex-direction: row;
   align-items: center;
-  
   position: relative;
-
 }
 .navbar a{
 justify-content: center;
 flex-direction: row;
-
 }
+.about-section{
+font-size: 50px;
+}
+  .about-section p{
+display: flex;
+flex-grow: inherit;
+font-size: 20px;
+  }
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
