@@ -1,5 +1,5 @@
-  
 header{
+  display: flex;
   font-size: 200%;
   font-family: 'Courier New', Courier, monospace;
   color: fuchsia;
@@ -12,12 +12,24 @@ header{
 }
 
 .container {
-position:relative;
-max-width:100%;
-height: 125px;
+flex-grow: inherit;
+position:sticky;
 background-image: url("/Users/andreicho/Desktop/bootcamp/hw-2-bootcamp/asseset/images/20.jpg");
+background-size:cover ;
 }
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  position: relative;
 
+}
+.navbar a{
+justify-content: center;
+flex-direction: row;
+
+}
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
@@ -147,14 +159,13 @@ html {
     justify-content: center;
     }
    
-.MyWork{ 
+#MyWork{ 
   display: flex;
   flex-wrap: wrap;
 
 }
-.twitter{
+#twitter{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
 }
