@@ -16,6 +16,8 @@ flex-grow: inherit;
 position:sticky;
 background-image: url("/Users/andreicho/Desktop/bootcamp/hw-2-bootcamp/asseset/images/20.jpg");
 background-size:cover;
+width: 100%;
+min-height: 100px;
 }
 .navbar{
   display: flex;
@@ -38,7 +40,7 @@ font-size: 20px;
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
-position:absolute;
+position:static;
 bottom: 0;
 background: rgb(0, 0, 0);
 background: rgba(0, 0, 0, 0.5); /* Black see-through */
@@ -131,6 +133,7 @@ html {
     display: block;
   }
 }
+ 
 @keyframes bgcolor {
   0% {
       background-color: #45a3e5
