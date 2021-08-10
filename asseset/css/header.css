@@ -1,0 +1,65 @@
+header { 
+    display: flex;
+    font-size: 200%;
+    font-family:"Space Mono";
+    color: fuchsia;
+    text-align: center;
+  
+  }
+  /* The overlay effect - lays on top of the container and over the image */
+    .overlay {
+    position:static;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    /* When you mouse over the container, fade in the overlay title */
+    .container:hover .overlay {
+    opacity: 1;
+    }
+    h2{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+    
+
+  .container {
+    flex-grow: inherit;
+    position:sticky;
+    background-image: url("/Users/andreicho/Desktop/bootcamp/hw-2-bootcamp/asseset/images/20.jpg");
+    background-size:cover;
+    width: 100%;
+    min-height: 100px;
+
+    }
+
+    nav{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position:static;
+
+    }
+
+    nav a{
+    justify-content: center;
+    flex-direction: row;
+
+    }

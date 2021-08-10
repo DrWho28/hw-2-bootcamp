@@ -1,15 +1,8 @@
-header{
-  display: flex;
-  font-size: 200%;
-  font-family:"Space Mono"
-  color: fuchsia;
-  text-align: center;
-}
+
 * {box-sizing: border-box;
   margin:auto;
   padding: 0px;
-  box-sizing: border-;
-  
+  box-sizing: border-;  
 }
 
 
