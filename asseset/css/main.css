@@ -1,29 +1,17 @@
 
+
 * {box-sizing: border-box;
   margin:auto;
   padding: 0px;
   box-sizing: border-;  
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
 
-.container {
-flex-grow: inherit;
-position:sticky;
-background-image: url("/Users/andreicho/Desktop/bootcamp/hw-2-bootcamp/asseset/images/20.jpg");
-background-size:cover;
-width: 100%;
-min-height: 100px;
-}
-.navbar{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position:static;
-}
-.navbar a{
-justify-content: center;
-flex-direction: row;
-}
+
 .about-section{
 font-size: 50px;
 }
@@ -32,46 +20,6 @@ display: flex;
 flex-grow: inherit;
 font-size: 20px;
   }
-
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-position:static;
-bottom: 0;
-background: rgb(0, 0, 0);
-background: rgba(0, 0, 0, 0.5); /* Black see-through */
-color: #f1f1f1;
-width: 100%;
-transition: .5s ease;
-opacity:0;
-color: rgb(255, 255, 255);
-font-size: 40px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-padding: 20px;
-text-align: center;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
-opacity: 1;
-}
-h2{
-display: flex;
-flex-wrap: wrap;
-font-size: 30px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 .column {
   float: left;
@@ -92,42 +40,7 @@ html {
   color: rgb(235, 27, 27); 
 }
 
-.container {
-  padding: 0 16px;
-}
 
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: rgb(99, 94, 94);
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
  
   #profilepic{
     display: flex;
