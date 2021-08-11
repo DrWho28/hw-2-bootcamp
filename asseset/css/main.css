@@ -3,8 +3,11 @@ header{
   height: 368px;
 }
 .profilepic{
+  display: flexbox;
+  position: absolute;
+  align-content: flex-end;
   background-size: cover;
-  float: right;
+  
 }
 ul.li {
   display: flex;
