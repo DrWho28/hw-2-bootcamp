@@ -5,9 +5,8 @@ header{
 .profilepic{
   background-size: cover;
   float: right;
- 
 }
-ul{
+ul.li {
   display: flex;
   flex-direction: column;
 }
